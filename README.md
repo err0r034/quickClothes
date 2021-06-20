@@ -3,6 +3,10 @@ Change clothes quickly.
 
 This script allows for the changing of clothes by command.
 
+setx drawableID textureID
+
+
+
 Hats and the like to be added at a later date. 
 
 Intended for use in roleplay communities or scenarios where the quick changing of clothes is required. 
