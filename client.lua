@@ -1,0 +1,67 @@
+RegisterCommand('setmask', function(source, args)
+    drawable = tonumber(args[1])
+    texture = tonumber(args[2])
+    SetPedComponentVariation(PlayerPedId(), 1, drawable, texture, 0)
+end, false)
+
+
+RegisterCommand('sethair', function(source, args)
+    drawable = tonumber(args[1])
+    texture = tonumber(args[2])
+    SetPedComponentVariation(PlayerPedId(), 121, drawable, texture, 0)
+end, false)
+
+RegisterCommand('settorso', function(source, args)
+    drawable = tonumber(args[1])
+    texture = tonumber(args[2])
+    SetPedComponentVariation(PlayerPedId(), 3, drawable, texture, 0)
+end, false)
+
+RegisterCommand('setleg', function(source, args)
+    drawable = tonumber(args[1])
+    texture = tonumber(args[2])
+    SetPedComponentVariation(PlayerPedId(), 4, drawable, texture, 0)
+end, false)
+
+RegisterCommand('setbag', function(source, args)
+    drawable = tonumber(args[1])
+    texture = tonumber(args[2])
+    SetPedComponentVariation(PlayerPedId(), 5, drawable, texture, 0)
+end, false)
+
+RegisterCommand('setshoes', function(source, args)
+    drawable = tonumber(args[1])
+    texture = tonumber(args[2])
+    SetPedComponentVariation(PlayerPedId(), 6, drawable, texture, 0)
+end, false)
+
+
+RegisterCommand('setacc', function(source, args)
+    drawable = tonumber(args[1])
+    texture = tonumber(args[2])
+    SetPedComponentVariation(PlayerPedId(), 7, drawable, texture, 0)
+end, false)
+
+RegisterCommand('setunder', function(source, args)
+    drawable = tonumber(args[1])
+    texture = tonumber(args[2])
+    SetPedComponentVariation(PlayerPedId(), 8, drawable, texture, 0)
+end, false)
+
+RegisterCommand('setarmor', function(source, args)
+    drawable = tonumber(args[1])
+    texture = tonumber(args[2])
+    SetPedComponentVariation(PlayerPedId(), 9, drawable, texture, 0)
+end, false)
+
+RegisterCommand('setlogos', function(source, args)
+    drawable = tonumber(args[1])
+    texture = tonumber(args[2])
+    SetPedComponentVariation(PlayerPedId(), 10, drawable, texture, 0)
+end, false)
+
+RegisterCommand('settorso', function(source, args)
+    drawable = tonumber(args[1])
+    texture = tonumber(args[2])
+    SetPedComponentVariation(PlayerPedId(), 11, drawable, texture, 0)
+end, false)
